@@ -1,0 +1,38 @@
+@font-face {
+    font-family: yekan;
+    src: url(./Yekan.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "yekan";
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+ul {
+    padding: 30px 50px 30px 40px;
+    border-radius: 10px;
+    background-color: #ffdafe;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #5a0051
+}
+
+li::marker {
+
+    /* You can replace your character with below content  */
+    
+    content: "\2705    ";
+}
+
+
+
+
